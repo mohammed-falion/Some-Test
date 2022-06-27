@@ -1,0 +1,42 @@
+{
+    "id": "e8f13720-b2a9-4b5b-8215-3b8500cffc8f",
+    "callbackUrl": "https://7cef-45-89-173-196.jp.ngrok.io/callback/dcda",
+    "request": {
+        "id": "e8f13720-b2a9-4b5b-8215-3b8500cffc8f",
+        "type": "https://mattr.global/schemas/verifiable-presentation/request/QueryByExample",
+        "from": "did:key:z6MkhYVUEnoNfQiEXjAFoH39CWwfcPWLBKg6iatyQ1E2hoXZ",
+        "created_time": 1656328411910,
+        "expires_time": 1656328711908,
+        "reply_url": "https://no-gbgdbn.vii.mattr.global/core/v1/presentations/response",
+        "reply_to": [
+            "did:key:z6MkhYVUEnoNfQiEXjAFoH39CWwfcPWLBKg6iatyQ1E2hoXZ"
+        ],
+        "body": {
+            "query": [
+                {
+                    "type": "QueryByExample",
+                    "credentialQuery": [
+                        {
+                            "reason": "Please provide your certificate.",
+                            "example": {
+                                "type": "CourseCredential",
+                                "@context": [
+                                    "https://schema.org"
+                                ],
+                                "trustedIssuer": [
+                                    {
+                                        "issuer": "did:key:z6MkhYVUEnoNfQiEXjAFoH39CWwfcPWLBKg6iatyQ1E2hoXZ",
+                                        "required": true
+                                    }
+                                ]
+                            },
+                            "required": true
+                        }
+                    ]
+                }
+            ],
+            "domain": "no-gbgdbn.vii.mattr.global",
+            "challenge": "1dr3c28c8d42dc"
+        }
+    }
+}

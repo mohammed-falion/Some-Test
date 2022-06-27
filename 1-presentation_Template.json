@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "id": "1dc28c8d-9419-402f-bbe7-3cf5eda4259a",
+            "name": "did-presentation",
+            "domain": "no-gbgdbn.vii.mattr.global",
+            "query": [
+                {
+                    "type": "QueryByExample",
+                    "credentialQuery": [
+                        {
+                            "reason": "Please provide your certificate.",
+                            "example": {
+                                "type": "CourseCredential",
+                                "@context": [
+                                    "https://schema.org"
+                                ],
+                                "trustedIssuer": [
+                                    {
+                                        "issuer": "did:key:z6MkhYVUEnoNfQiEXjAFoH39CWwfcPWLBKg6iatyQ1E2hoXZ",
+                                        "required": true
+                                    }
+                                ]
+                            },
+                            "required": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "nextCursor": "Y3JlYXRlZEF0PTIwMjItMDYtMDRUMTQlM0EwMCUzQTM0LjQ3NlomaWQ9MWRjMjhjOGQtOTQxOS00MDJmLWJiZTctM2NmNWVkYTQyNTlh"
+}
